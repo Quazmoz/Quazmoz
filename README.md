@@ -13,14 +13,14 @@
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Wear OS](https://img.shields.io/badge/Wear%20OS-4285F4?style=flat&logo=google&logoColor=white)
+![Wear OS](https://img.shields.io/badge/Wear%20OS-4285F4?style=flat&logo=wearos&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white)
 
 **AI Tools I work with daily:**
 
-![Antigravity](https://img.shields.io/badge/Antigravity-000000?style=flat&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-000000?style=flat&logo=rocket.chat&logoColor=white)
 ![Codex](https://img.shields.io/badge/Codex-412991?style=flat&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=flat&logo=perplexity&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 
