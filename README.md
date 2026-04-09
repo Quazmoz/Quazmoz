@@ -14,6 +14,15 @@
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Wear OS](https://img.shields.io/badge/Wear%20OS-4285F4?style=flat&logo=google&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white)
+
+**AI Tools I work with daily:**
+
+![Antigravity](https://img.shields.io/badge/Antigravity-000000?style=flat&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=flat&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logoColor=white)
+![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=flat&logo=perplexity&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 
 I build **automation-first systems** across infrastructure, AI workflows, internal tooling, and standalone utility software.
 
@@ -53,11 +62,12 @@ Beyond the server implementations, the `mcp` repo has:
 - Structured contribution patterns for adding new platform integrations
 
 ### dbGuard — Android / Wear OS Utility
-A Kotlin + Gradle Android project with a Wear OS companion (`dbGuard`). Focused on a tight, specific UX — the kind of low-friction, haptic-first experience that standalone apps should have but rarely do.
+A Kotlin + Gradle Android project with a Wear OS companion. Focused on a tight, specific UX — the kind of low-friction, haptic-first experience that standalone apps should have but rarely do.
 
-### Homelab & Infrastructure
-- **K8SHomelab** — live Kubernetes cluster experimentation: manifests, operators, Helm deployments, and cluster config iteration
-- **TerraformHomeLab** — IaC patterns and reusable modules for homelab and cloud environments
+### 🖥️ Homelab
+A self-hosted lab running Kubernetes, local LLMs on GPU/NPU hardware, and infrastructure experiments that don't belong in a cloud account. It's where IaC patterns get validated, new tools get stress-tested, and nothing is sacred.
+- **K8SHomelab** — live cluster: manifests, operators, Helm deployments, config iteration
+- **TerraformHomeLab** — reusable IaC modules for homelab and cloud environments
 - **npu-windows** — local AI model experimentation on Windows NPU hardware
 
 ---
@@ -73,8 +83,9 @@ A Kotlin + Gradle Android project with a Wear OS companion (`dbGuard`). Focused 
 | Backends | Django REST, Go (net/http), FastMCP |
 | Frontends | React, Flutter |
 | Data | PostgreSQL, Redis, Celery Beat |
-| AI/Agents | MCP, FastMCP, local LLMs, n8n |
+| AI/Agents | MCP, FastMCP, local LLMs, n8n, Antigravity, Codex, Claude, Perplexity, Gemini |
 | CI/CD | GitHub Actions, Azure DevOps |
+| OS | Windows (primary), Linux (servers + containers) |
 | Monitoring | Sentry, structured JSON logging, health check endpoints |
 
 ---
