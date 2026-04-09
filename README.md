@@ -10,114 +10,105 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![AI Workflows](https://img.shields.io/badge/AI-Workflows-111111?style=flat)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Wear OS](https://img.shields.io/badge/Wear%20OS-4285F4?style=flat&logo=google&logoColor=white)
 
 I build **automation-first systems** across infrastructure, AI workflows, internal tooling, and standalone utility software.
 
-My work is centered on one recurring idea:
+My work keeps coming back to one idea:
 
 > find operational friction, then turn it into software
 
-That shows up in everything I build — from PowerShell automation and cloud tooling, to AI-assisted workflows, homelab infrastructure, dashboards, experiments with local models, and product-oriented Wear OS apps.
+---
+
+## What I Actually Build
+
+### AI Agent Tooling & MCP Servers
+I'm building a multi-language MCP (Model Context Protocol) server ecosystem — Go, Python (FastMCP), and Rust implementations — with OpenAPI specs for each surface. Integrations target real enterprise platforms: **Microsoft 365** (Planner, To Do, Loop), **HPE OneView** for bare-metal infrastructure management, **Tanium** for endpoint security, and **Zerto** for disaster recovery orchestration. The goal is agent-accessible infrastructure, not just chatbots.
+
+### Q-Automation — Script Orchestration Platform
+A full production-grade automation platform I built from scratch:
+- **React 18 + TypeScript** frontend with Monaco Editor (VS Code's engine) for in-browser script editing
+- **Django REST Framework** backend with **Celery + Redis** for async task execution and cron scheduling
+- **PostgreSQL** persistence with full audit logging and RBAC
+- Enterprise SSO support: SAML 2.0, LDAP/AD, Azure AD OAuth, Okta, Google, GitHub
+- Kubernetes-ready with Helm charts and GitHub Actions CI/CD
+- Scripts execute in sandboxed subprocesses with configurable timeouts, CPU/memory metrics, and Sentry-integrated error tracking
+
+This is not a toy. It's a platform for teams to manage, schedule, and monitor PowerShell and Python scripts through a hardened web interface.
+
+### PowerShell RMM Pro
+A remote monitoring and management tool built across two layers:
+- **Go backend** — fast, low-overhead API layer for endpoint communication and telemetry collection
+- **Flutter frontend** — cross-platform dashboard for managing endpoints, running scripts, and viewing status
+
+Built because commercial RMM tools are expensive and often overbuilt for the specific operational needs I work against.
+
+### MCP Infrastructure (Go + Python + Rust)
+Beyond the server implementations, the `mcp` repo has:
+- Pre-commit hooks enforcing code quality across all language targets
+- OpenAPI spec library for consistent interface documentation
+- Structured contribution patterns for adding new platform integrations
+
+### dbGuard — Android / Wear OS Utility
+A Kotlin + Gradle Android project with a Wear OS companion (`dbGuard`). Focused on a tight, specific UX — the kind of low-friction, haptic-first experience that standalone apps should have but rarely do.
+
+### Homelab & Infrastructure
+- **K8SHomelab** — live Kubernetes cluster experimentation: manifests, operators, Helm deployments, and cluster config iteration
+- **TerraformHomeLab** — IaC patterns and reusable modules for homelab and cloud environments
+- **npu-windows** — local AI model experimentation on Windows NPU hardware
 
 ---
 
-## What I Work On
+## Tech I Use Regularly
 
-### AI + Automation
-I build and explore systems that reduce manual work through:
-- agent-style workflows
-- prompt-driven operational tooling
-- automation pipelines
-- local and hybrid AI experiments
-- MCP-oriented and tool-integrated interfaces
-
-### Cloud + Platform Engineering
-My infrastructure work spans:
-- Azure and AWS
-- Terraform and Ansible
-- Kubernetes and self-hosted lab environments
-- monitoring, operational visibility, and reliability-minded tooling
-- practical infrastructure patterns that can be reused and extended
-
-### Utility Products
-I also build lightweight, utility-first products — especially around:
-- Wear OS
-- timers
-- reminders
-- tracking
-- haptic-first interactions
-- low-friction, standalone user experiences
+| Layer | Tools |
+|---|---|
+| Cloud | Azure, AWS |
+| IaC | Terraform, Ansible, Helm |
+| Containers | Docker, Kubernetes (AKS) |
+| Languages | PowerShell, Python, Go, Rust, TypeScript, Kotlin |
+| Backends | Django REST, Go (net/http), FastMCP |
+| Frontends | React, Flutter |
+| Data | PostgreSQL, Redis, Celery Beat |
+| AI/Agents | MCP, FastMCP, local LLMs, n8n |
+| CI/CD | GitHub Actions, Azure DevOps |
+| Monitoring | Sentry, structured JSON logging, health check endpoints |
 
 ---
 
-## Areas of Focus
+## What's Private (and Why)
 
-- AI-native DevOps workflows
-- infrastructure automation
-- PowerShell-heavy systems administration tooling
-- local LLM experimentation
-- platform and dashboard tooling
-- practical software that replaces repetitive operational tasks
-- wearable utilities with focused UX
+Most of my active work lives in private repos. This includes:
+- Internal automation systems and admin tooling
+- Dashboard and portal prototypes
+- AI workflow experiments and MCP orchestration concepts
+- Product-stage wearable app development
+- PowerShell-heavy systems administration tooling built for real operational environments
 
----
-
-## Selected Public Projects
-
-- **[ai.quinnfavo.com](https://github.com/Quazmoz/ai.quinnfavo.com)** — AI tooling and workflow experiments
-- **[devops-ai-prompts](https://github.com/Quazmoz/devops-ai-prompts)** — prompt assets for DevOps and infrastructure workflows
-- **[K8SHomelab](https://github.com/Quazmoz/K8SHomelab)** — Kubernetes and homelab experimentation
-- **[npu-windows](https://github.com/Quazmoz/npu-windows)** — local AI / Windows hardware experimentation
-- **[groupmebot](https://github.com/Quazmoz/groupmebot)** — messaging and workflow automation
-- **[WebsiteDownChecker](https://github.com/Quazmoz/WebsiteDownChecker)** — lightweight monitoring utility
-- **[TerraformHomeLab](https://github.com/Quazmoz/TerraformHomeLab)** — homelab IaC experiments
+The public repos are a slice. The private side is where the systems actually run.
 
 ---
 
-## Behind the Scenes
+## Patterns I Keep Coming Back To
 
-A large share of my work happens in private repos where I iterate on:
-- internal automation systems
-- dashboard and portal ideas
-- PowerShell-based admin tooling
-- AI workflow experiments
-- MCP / orchestration concepts
-- wearable app concepts and utility products
-- product prototypes that may eventually become public tools
-
-So while the public repos show part of the picture, they are only one slice of the broader systems and experiments I work on.
-
----
-
-## Technical Themes
-
-A few patterns show up repeatedly in my projects:
-
-- **automation over ceremony**  
-  I prefer systems that eliminate work, not just document it.
-
-- **utility over novelty**  
-  I’m more interested in useful tools than flashy demos.
-
-- **rapid iteration with real-world grounding**  
-  I prototype quickly, but usually around practical operational pain points.
-
-- **small tools that compound**  
-  Many of the best systems start as narrow utilities and evolve into larger workflows.
+- **Automation over ceremony** — systems that eliminate work, not just document it
+- **Utility over novelty** — tools that solve something real, not demos
+- **Productized infrastructure** — if I'm running it manually more than twice, it becomes software
+- **Small tools that compound** — narrow utilities that evolve into broader workflows
+- **Sandboxed, observable execution** — everything gets logs, metrics, and timeouts
 
 ---
 
 ## Current Direction
 
-Right now, I’m especially interested in pushing further into:
-
-- agent-assisted and agent-orchestrated workflows
-- AI for operational leverage instead of gimmicks
-- cloud and infrastructure tooling that feels productized
-- local-first AI experimentation
-- standalone apps with tight, focused value propositions
+- Agent-orchestrated workflows using MCP as the interface layer
+- Expanding enterprise platform coverage in the MCP server ecosystem
+- AI for operational leverage: triage, summarization, anomaly flagging in infra pipelines
+- Cross-platform utility apps (Wear OS / Android / Flutter) with tight, focused value propositions
+- Local-first AI experimentation on GPU and NPU hardware
 
 ---
 
@@ -128,7 +119,5 @@ Right now, I’m especially interested in pushing further into:
 - ▶️ [YouTube](https://www.youtube.com/@QuinnFavo)
 
 ---
-
-## Philosophy
 
 > Build the tool once. Remove the task forever.
