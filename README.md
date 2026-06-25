@@ -31,7 +31,7 @@ I work at the intersection of **automation engineering**, **AI infrastructure**,
 
 ## Featured Public Repositories
 
-These are the public repos that best represent my current direction and are the strongest candidates for GitHub profile pins.
+These public repos best represent my current direction.
 
 | Project | What it is | Stack / Focus | Status |
 |---|---|---|---|
@@ -39,12 +39,6 @@ These are the public repos that best represent my current direction and are the 
 | [**OpenVINO Windows LLM**](https://github.com/Quazmoz/openvino-windows-llm) | Local OpenAI-compatible LLM server for Intel Windows PCs | Python, OpenVINO GenAI, Windows, CPU/GPU/NPU, web UI | Working |
 | [**AgentDefaults**](https://github.com/Quazmoz/agentdefaults) | Reusable defaults for AI agents, skills, prompts, wrappers, and token-efficiency workflows | Markdown, validation scripts, AI agent UX | Active |
 | [**npu-windows**](https://github.com/Quazmoz/npu-windows) | Earlier Intel NPU local LLM experiment and predecessor to the OpenVINO stack | Windows, Intel NPU, local AI | Legacy / reference |
-
-### Recommended Public Pins
-
-`memoryops` · `openvino-windows-llm` · `agentdefaults` · `npu-windows`
-
-Additional pins should be added only when the strongest product/app repos are made public. Several active product repos are intentionally private, so they are represented below as portfolio areas instead of public code links.
 
 ---
 
