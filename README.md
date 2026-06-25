@@ -1,134 +1,148 @@
+<div align="center">
+
 # Hi, I'm Quinn 👋
 
-📍 New York | ☁️ Cloud & DevOps Engineer | 🤖 AI Systems, Automation, and Utility Product Builder
+### Senior Automation Engineer building AI + DevOps systems, local LLM infrastructure, MCP workflows, and focused utility products.
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Wear OS](https://img.shields.io/badge/Wear%20OS-4285F4?style=flat&logo=wearos&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows11&logoColor=white)
+I turn operational friction into software: self-hosted AI control planes, automation platforms, local inference stacks, and small apps that solve specific real-world problems.
 
-**AI Tools I work with daily:**
+[![Portfolio](https://img.shields.io/badge/Portfolio-profile.quinnfavo.com-00C2FF?style=for-the-badge)](https://profile.quinnfavo.com)
+[![Consulting](https://img.shields.io/badge/Consulting-consultant.quinnfavo.com-8B5CF6?style=for-the-badge)](https://consultant.quinnfavo.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Quinn%20Favo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quinnfavo/)
+[![YouTube](https://img.shields.io/badge/YouTube-@QuinnFavo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@QuinnFavo)
 
-![Antigravity](https://img.shields.io/badge/Antigravity-000000?style=flat&logo=dependabot&logoColor=white)
-![Codex](https://img.shields.io/badge/Codex-412991?style=flat&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
-![Perplexity](https://img.shields.io/badge/Perplexity-20808D?style=flat&logo=perplexity&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
-
-I build **automation-first systems** across infrastructure, AI workflows, internal tooling, and standalone utility software.
-
-My work keeps coming back to one idea:
-
-> find operational friction, then turn it into software
+</div>
 
 ---
 
-## What I Actually Build
+## What I Build
 
-### AI Agent Tooling & MCP Servers
-I'm building a multi-language MCP (Model Context Protocol) server ecosystem — Go, Python (FastMCP), and Rust implementations — with OpenAPI specs for each surface. Integrations target real enterprise platforms: **Microsoft 365** (Planner, To Do, Loop), **HPE OneView** for bare-metal infrastructure management, **Tanium** for endpoint security, and **Zerto** for disaster recovery orchestration. The goal is agent-accessible infrastructure, not just chatbots.
+I work at the intersection of **automation engineering**, **AI infrastructure**, **DevOps platforms**, and **small utility products**.
 
-### Q-Automation — Script Orchestration Platform
-A full production-grade automation platform I built from scratch:
-- **React 18 + TypeScript** frontend with Monaco Editor (VS Code's engine) for in-browser script editing
-- **Django REST Framework** backend with **Celery + Redis** for async task execution and cron scheduling
-- **PostgreSQL** persistence with full audit logging and RBAC
-- Enterprise SSO support: SAML 2.0, LDAP/AD, Azure AD OAuth, Okta, Google, GitHub
-- Kubernetes-ready with Helm charts and GitHub Actions CI/CD
-- Scripts execute in sandboxed subprocesses with configurable timeouts, CPU/memory metrics, and Sentry-integrated error tracking
+- **AI agent infrastructure** — memory layers, MCP servers, prompt/skill systems, local-agent workflows
+- **Local/private LLM stacks** — OpenAI-compatible APIs, OpenVINO, Windows AI hardware, GPU/NPU experimentation
+- **DevOps automation platforms** — Terraform, Ansible, Kubernetes, CI/CD, observability, internal tooling
+- **Operator-first apps** — focused Android / Wear OS tools with privacy-first architecture and Play Store readiness
+- **Consulting/product systems** — portfolio, technical content, and practical AI infrastructure offers
 
-This is not a toy. It's a platform for teams to manage, schedule, and monitor PowerShell and Python scripts through a hardened web interface.
-
-### PowerShell RMM Pro
-A remote monitoring and management tool built across two layers:
-- **Go backend** — fast, low-overhead API layer for endpoint communication and telemetry collection
-- **Flutter frontend** — cross-platform dashboard for managing endpoints, running scripts, and viewing status
-
-Built because commercial RMM tools are expensive and often overbuilt for the specific operational needs I work against.
-
-### MCP Infrastructure (Go + Python + Rust)
-Beyond the server implementations, the `mcp` repo has:
-- Pre-commit hooks enforcing code quality across all language targets
-- OpenAPI spec library for consistent interface documentation
-- Structured contribution patterns for adding new platform integrations
-
-### dbGuard — Android / Wear OS Utility
-A Kotlin + Gradle Android project with a Wear OS companion. Focused on a tight, specific UX — the kind of low-friction, haptic-first experience that standalone apps should have but rarely do.
-
-### 🖥️ Homelab
-A self-hosted lab running Kubernetes, local LLMs on GPU/NPU hardware, and infrastructure experiments that don't belong in a cloud account. It's where IaC patterns get validated, new tools get stress-tested, and nothing is sacred.
-- **K8SHomelab** — live cluster: manifests, operators, Helm deployments, config iteration
-- **TerraformHomeLab** — reusable IaC modules for homelab and cloud environments
-- **npu-windows** — local AI model experimentation on Windows NPU hardware
+> Build the tool once. Remove the task forever.
 
 ---
 
-## Tech I Use Regularly
+## Featured Public Repositories
+
+These are the public repos that best represent my current direction and are the strongest candidates for GitHub profile pins.
+
+| Project | What it is | Stack / Focus | Status |
+|---|---|---|---|
+| [**MemoryOps**](https://github.com/Quazmoz/memoryops) | Self-hosted memory control plane for AI agents | Rust, Postgres, Redis, Qdrant, MCP, control UI | Alpha |
+| [**OpenVINO Windows LLM**](https://github.com/Quazmoz/openvino-windows-llm) | Local OpenAI-compatible LLM server for Intel Windows PCs | Python, OpenVINO GenAI, Windows, CPU/GPU/NPU, web UI | Working |
+| [**AgentDefaults**](https://github.com/Quazmoz/agentdefaults) | Reusable defaults for AI agents, skills, prompts, wrappers, and token-efficiency workflows | Markdown, validation scripts, AI agent UX | Active |
+| [**npu-windows**](https://github.com/Quazmoz/npu-windows) | Earlier Intel NPU local LLM experiment and predecessor to the OpenVINO stack | Windows, Intel NPU, local AI | Legacy / reference |
+
+### Recommended Public Pins
+
+`memoryops` · `openvino-windows-llm` · `agentdefaults` · `npu-windows`
+
+Additional pins should be added only when the strongest product/app repos are made public. Several active product repos are intentionally private, so they are represented below as portfolio areas instead of public code links.
+
+---
+
+## Flagship Work
+
+### MemoryOps — AI Agent Memory Control Plane
+
+MemoryOps is my self-hosted memory layer for AI agents. It is designed for teams that need governed, inspectable, token-aware context retrieval across engineering activity instead of one-off prompt stuffing or unmanaged vector search.
+
+Focus areas:
+
+- Structured ingestion from engineering systems and agent observations
+- Episodic → semantic memory lifecycle management
+- Hybrid retrieval, feedback, decay, pinning, pruning, and auditability
+- MCP/API access so coding agents can retrieve and store memory directly
+- Operator UI for visibility into what agents remember and why
+
+### OpenVINO Windows LLM — Local AI Workstation Stack
+
+OpenVINO Windows LLM turns Intel Windows PCs into practical local AI workstations. It wraps OpenVINO GenAI in an OpenAI-compatible server with streaming chat, model lifecycle management, a built-in browser UI, conversion helpers, and direct targeting for Intel CPU, GPU, NPU, and AUTO devices.
+
+Use cases:
+
+- Open WebUI / n8n / LangChain / Continue integration
+- Local-first AI experimentation without cloud APIs
+- Intel NPU/GPU/CPU device routing tests
+- Laptop-friendly model conversion and serving workflows
+
+### AgentDefaults — Reusable AI Engineering Defaults
+
+AgentDefaults is a practical library of reusable agent profiles, skills, prompts, wrappers, examples, and validation patterns. It is built around a simple idea: AI engineering improves when default behavior is reusable, testable, and benchmarkable.
+
+It includes:
+
+- Repo-aware coding-agent defaults
+- Claude / Gemini / Copilot / editor wrappers
+- Token-efficiency skills and measurement prompts
+- Reusable task profiles for DevOps, research, SEO, coding, and documentation
+- Validation scripts for keeping prompt libraries maintainable
+
+---
+
+## Private / Product-Stage Work
+
+Not everything I build is public. A lot of my most active work lives in private repos because it includes product-stage code, app-store release details, security-sensitive automation, or client-style infrastructure patterns.
+
+Current private/product areas include:
+
+| Area | What it demonstrates |
+|---|---|
+| **Wear OS utility apps** | Kotlin, Jetpack Compose, Play Billing, tiles, complications, haptics, Android release engineering |
+| **WebhookDeck** | Secure wrist-based webhook triggers for operators, homelab users, and automation workflows |
+| **WristSense / WristNote / WristDash / WristLux** | Sensor dashboards, voice notes, Home Assistant controls, light metering, phone-watch sync |
+| **FidgetDrop** | Privacy-first Android haptic product with one-time Pro unlock and local-only state |
+| **InfraOrbit** | Local-first AI command center for DevOps and platform engineering teams |
+| **Consulting site** | AI infrastructure consulting hub, technical articles, videos, app pages, legal/privacy docs |
+
+The public repos are the visible slice. The private repos are where the productization, release hardening, and app-store workflows happen.
+
+---
+
+## Tech Stack
 
 | Layer | Tools |
 |---|---|
-| Cloud | Azure, AWS |
-| IaC | Terraform, Ansible, Helm |
-| Containers | Docker, Kubernetes (AKS) |
-| Languages | PowerShell, Python, Go, Rust, TypeScript, Kotlin |
-| Backends | Django REST, Go (net/http), FastMCP |
-| Frontends | React, Flutter |
-| Data | PostgreSQL, Redis, Celery Beat |
-| AI/Agents | MCP, FastMCP, local LLMs, n8n, Antigravity, Codex, Claude, Perplexity, Gemini |
-| CI/CD | GitHub Actions, Azure DevOps |
-| OS | Windows (primary), Linux (servers + containers) |
-| Monitoring | Sentry, structured JSON logging, health check endpoints |
-
----
-
-## What's Private (and Why)
-
-Most of my active work lives in private repos. This includes:
-- Internal automation systems and admin tooling
-- Dashboard and portal prototypes
-- AI workflow experiments and MCP orchestration concepts
-- Product-stage wearable app development
-- PowerShell-heavy systems administration tooling built for real operational environments
-
-The public repos are a slice. The private side is where the systems actually run.
-
----
-
-## Patterns I Keep Coming Back To
-
-- **Automation over ceremony** — systems that eliminate work, not just document it
-- **Utility over novelty** — tools that solve something real, not demos
-- **Productized infrastructure** — if I'm running it manually more than twice, it becomes software
-- **Small tools that compound** — narrow utilities that evolve into broader workflows
-- **Sandboxed, observable execution** — everything gets logs, metrics, and timeouts
+| **Cloud & Infra** | Azure, AWS, OCI, Terraform, Ansible, Helm |
+| **Containers & Platforms** | Docker, Kubernetes, AKS, GitHub Actions, Azure DevOps, Jenkins |
+| **Languages** | PowerShell, Python, Go, Rust, TypeScript, Kotlin, Bash |
+| **AI / Agents** | MCP, FastMCP, local LLMs, OpenVINO, Open WebUI, n8n, Codex, Claude, Gemini, Perplexity |
+| **Backends** | Django REST Framework, FastAPI, Go HTTP services, Postgres, Redis, Qdrant |
+| **Frontends** | React, Vite, TypeScript, Flutter, Jetpack Compose, Compose for Wear OS |
+| **Observability** | Grafana, Prometheus, Sentry, structured logging, health checks |
+| **Mobile / Wearables** | Android, Wear OS, Play Billing, Data Layer sync, tiles, complications, haptics |
 
 ---
 
 ## Current Direction
 
-- Agent-orchestrated workflows using MCP as the interface layer
-- Expanding enterprise platform coverage in the MCP server ecosystem
-- AI for operational leverage: triage, summarization, anomaly flagging in infra pipelines
-- Cross-platform utility apps (Wear OS / Android / Flutter) with tight, focused value propositions
-- Local-first AI experimentation on GPU and NPU hardware
+- Building self-hosted **memory and context systems** for AI agents
+- Making infrastructure more **agent-accessible** through MCP, APIs, and typed control surfaces
+- Running and evaluating **local/private AI** on Windows, GPU, and NPU hardware
+- Turning DevOps patterns into **productized internal platforms**
+- Shipping narrow, privacy-first **utility apps** instead of vague demos
+- Creating technical content around AI infrastructure, automation, and local LLM workflows
 
 ---
 
 ## Elsewhere
 
-- 🌐 [profile.quinnfavo.com](https://profile.quinnfavo.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/quinnfavo/)
-- ▶️ [YouTube](https://www.youtube.com/@QuinnFavo)
+- 🌐 Portfolio: [profile.quinnfavo.com](https://profile.quinnfavo.com)
+- 🧠 Consulting: [consultant.quinnfavo.com](https://consultant.quinnfavo.com)
+- 💼 LinkedIn: [linkedin.com/in/quinnfavo](https://www.linkedin.com/in/quinnfavo/)
+- ▶️ YouTube: [youtube.com/@QuinnFavo](https://www.youtube.com/@QuinnFavo)
 
 ---
 
-> Build the tool once. Remove the task forever.
+<div align="center">
+
+**Automation over ceremony. Utility over novelty. Systems that compound.**
+
+</div>
