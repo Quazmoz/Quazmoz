@@ -29,16 +29,6 @@ My work sits at the intersection of **AI infrastructure**, **platform automation
 
 ---
 
-## Repository Visibility
-
-This profile intentionally separates source visibility:
-
-- **Public source** means the repository is linked below and can be inspected directly.
-- **Private source** means the product or system is real, but its repository contains commercial code, release configuration, security-sensitive patterns, or unpublished work.
-- Private repositories are never presented as open source, and private GitHub links are not exposed here.
-
----
-
 ## Featured Public Source
 
 These repositories best represent my current engineering direction.
