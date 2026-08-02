@@ -4,8 +4,6 @@
 
 ### AI and DevOps engineer building local AI infrastructure, agent systems, automation platforms, and focused Android and Wear OS products.
 
-I turn operational friction into software: local inference workstations, governed agent memory, MCP integrations, GitOps platforms, and small products designed around one clear job.
-
 [![Portfolio](https://img.shields.io/badge/Portfolio-profile.quinnfavo.com-00C2FF?style=for-the-badge)](https://profile.quinnfavo.com)
 [![Consulting](https://img.shields.io/badge/Consulting-consultant.quinnfavo.com-8B5CF6?style=for-the-badge)](https://consultant.quinnfavo.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Quinn%20Favo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quinnfavo/)
