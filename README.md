@@ -4,6 +4,8 @@
 
 ### AI and DevOps engineer building local AI infrastructure, agent systems, automation platforms, and focused Android and Wear OS products.
 
+[![Google Play](https://img.shields.io/badge/Google_Play-View_My_Apps-414141?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=8067447984067693441)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-profile.quinnfavo.com-00C2FF?style=for-the-badge)](https://profile.quinnfavo.com)
 [![Consulting](https://img.shields.io/badge/Consulting-consultant.quinnfavo.com-8B5CF6?style=for-the-badge)](https://consultant.quinnfavo.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Quinn%20Favo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quinnfavo/)
