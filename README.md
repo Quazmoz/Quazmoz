@@ -2,14 +2,22 @@
 
 # Hi, I'm Quinn 👋
 
-### AI and DevOps engineer building local AI infrastructure, agent systems, automation platforms, and focused Android and Wear OS products.
+**AI / DevOps Engineer · Local AI Builder · Android & Wear OS Developer**
 
-[![Google Play](https://img.shields.io/badge/Google_Play-View_My_Apps-414141?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=8067447984067693441)
+I build **local AI infrastructure**, **agent systems**, **automation platforms**, and **focused mobile products**.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-profile.quinnfavo.com-00C2FF?style=for-the-badge)](https://profile.quinnfavo.com)
-[![Consulting](https://img.shields.io/badge/Consulting-consultant.quinnfavo.com-8B5CF6?style=for-the-badge)](https://consultant.quinnfavo.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Quinn%20Favo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quinnfavo/)
-[![YouTube](https://img.shields.io/badge/YouTube-@QuinnFavo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@QuinnFavo)
+<br>
+
+### 📱 Explore my Android & Wear OS apps
+
+[![Google Play](https://img.shields.io/badge/Google_Play-Explore_My_Apps-34A853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/dev?id=8067447984067693441)
+
+<br>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00C2FF?style=flat-square&logo=googlechrome&logoColor=white)](https://profile.quinnfavo.com)
+[![Consulting](https://img.shields.io/badge/Consulting-Work_with_me-8B5CF6?style=flat-square&logo=briefcase&logoColor=white)](https://consultant.quinnfavo.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quinnfavo/)
+[![YouTube](https://img.shields.io/badge/YouTube-Watch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@QuinnFavo)
 
 </div>
 
