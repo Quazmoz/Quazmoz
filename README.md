@@ -7,7 +7,7 @@
 I build **local AI infrastructure**, **agent systems**, **developer tooling**, **automation platforms**, and **production Android & Wear OS software**.
 
 <p align="center">
-  <img src="./assets/pixel-developer-banner.webp" alt="Pixel art developer banner showing mobile, Wear OS, AI, automation, and app development" width="600">
+  <img src="./assets/pixel-developer-banner.png" alt="Pixel art developer banner showing mobile, Wear OS, AI, automation, and app development" width="600">
 </p>
 
 <p>
