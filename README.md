@@ -6,6 +6,10 @@
 
 I build **local AI infrastructure**, **agent systems**, **developer tooling**, **automation platforms**, and **production Android & Wear OS software**.
 
+<p align="center">
+  <img src="./assets/pixel-developer-banner.webp" alt="Pixel art developer banner showing mobile, Wear OS, AI, automation, and app development" width="600">
+</p>
+
 <p>
   <a href="https://profile.quinnfavo.com">
     <img src="https://img.shields.io/badge/Portfolio-Explore-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
