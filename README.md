@@ -132,25 +132,28 @@ I build **local AI infrastructure**, **agent systems**, **developer tooling**, *
 <tr>
 <td width="33%" valign="top">
 <h3>🧠 AI Infrastructure</h3>
-Local inference, model serving, OpenAI-compatible APIs, OpenVINO, RAG, and CPU/GPU/NPU workloads.
+<p>Local inference, model serving, OpenAI-compatible APIs, OpenVINO, RAG, and CPU/GPU/NPU workloads.</p>
 </td>
 <td width="33%" valign="top">
 <h3>🤖 Agent Systems</h3>
-MCP, memory, tool orchestration, retrieval, governance, reusable agent behavior, and operator control planes.
+<p>MCP, memory, tool orchestration, retrieval, governance, reusable agent behavior, and operator control planes.</p>
 </td>
 <td width="33%" valign="top">
 <h3>⚙️ Platform Engineering</h3>
-Terraform, Ansible, Kubernetes, GitOps, CI/CD, observability, secrets, and internal automation.
+<p>Terraform, Ansible, Kubernetes, GitOps, CI/CD, observability, secrets, and internal automation.</p>
 </td>
 </tr>
+</table>
+
+<table>
 <tr>
-<td width="50%" valign="top" colspan="1">
+<td width="50%" valign="top">
 <h3>🛠️ Developer Tooling</h3>
-Secure local tools, CLIs, workflow automation, packaging, diagnostics, and release engineering.
+<p>Secure local tools, CLIs, workflow automation, packaging, diagnostics, and release engineering.</p>
 </td>
-<td width="50%" valign="top" colspan="2">
+<td width="50%" valign="top">
 <h3>📱 Product Engineering</h3>
-Android, Wear OS, Kotlin, Compose, phone-watch protocols, billing, and production release workflows.
+<p>Android, Wear OS, Kotlin, Compose, phone-watch protocols, billing, and production release workflows.</p>
 </td>
 </tr>
 </table>
