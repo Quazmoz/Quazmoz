@@ -10,6 +10,29 @@ I build **local AI infrastructure**, **agent systems**, **developer tooling**, *
   <img src="./assets/pixel-developer-banner.webp" alt="Pixel art developer banner showing mobile, Wear OS, AI, automation, and app development" width="600">
 </p>
 
+<!-- cool-readme:start -->
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats/summary-dark.svg">
+  <img src="stats/summary-light.svg" width="450" alt="GitHub stats">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats/languages-dark.svg">
+  <img src="stats/languages-light.svg" width="350" alt="Most used languages">
+</picture>
+</p>
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats/contributions-dark.svg">
+  <img src="stats/contributions-light.svg" width="450" alt="Notable contributions">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats/weekly-dark.svg">
+  <img src="stats/weekly-light.svg" width="350" alt="Weekly rhythm">
+</picture>
+</p>
+<!-- cool-readme:end -->
+
 <p>
   <a href="https://profile.quinnfavo.com">
     <img src="https://img.shields.io/badge/Portfolio-Explore-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
@@ -289,33 +312,6 @@ Phone and Wear OS travel utility for time-zone planning, overlap windows, and we
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Wear OS](https://img.shields.io/badge/Wear_OS-4285F4?style=flat-square&logo=wearos&logoColor=white)
-
----
-
-## 📊 GitHub Activity
-
-<!-- cool-readme:start -->
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats/summary-dark.svg">
-  <img src="stats/summary-light.svg" width="450" alt="GitHub stats">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats/languages-dark.svg">
-  <img src="stats/languages-light.svg" width="350" alt="Most used languages">
-</picture>
-</p>
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats/contributions-dark.svg">
-  <img src="stats/contributions-light.svg" width="450" alt="Notable contributions">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats/weekly-dark.svg">
-  <img src="stats/weekly-light.svg" width="350" alt="Weekly rhythm">
-</picture>
-</p>
-<!-- cool-readme:end -->
 
 ---
 
