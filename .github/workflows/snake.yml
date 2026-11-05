@@ -1,0 +1,33 @@
+# Contribution-graph snake, see https://github.com/Platane/snk
+name: Update contribution snake
+
+on:
+  schedule:
+    - cron: '47 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.CARDS_TOKEN }}
+          outputs: |
+            stats/snake-light.svg?palette=github-light
+            stats/snake-dark.svg?palette=github-dark
+      - name: Commit snake
+        run: |
+          git add stats
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update contribution snake'
+          git pull --rebase
+          git push
