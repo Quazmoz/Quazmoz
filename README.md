@@ -23,15 +23,17 @@ I build **local AI infrastructure**, **agent systems**, **developer tooling**, *
 </p>
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats/contributions-dark.svg">
-  <img src="stats/contributions-light.svg" width="450" alt="Notable contributions">
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="stats/weekly-dark.svg">
   <img src="stats/weekly-light.svg" width="350" alt="Weekly rhythm">
 </picture>
 </p>
 <!-- cool-readme:end -->
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats/snake-dark.svg">
+  <img src="stats/snake-light.svg" width="800" alt="Contribution graph snake">
+</picture>
+</p>
 
 <p>
   <a href="https://profile.quinnfavo.com">
