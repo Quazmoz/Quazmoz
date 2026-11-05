@@ -1,5 +1,6 @@
 # Settings: https://github.com/pedrocatalao/github-cool-readme#settings
 user: Quazmoz
+cards: [summary, languages, weekly]
 style: classic
 include:
   private: true
