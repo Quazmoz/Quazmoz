@@ -22,7 +22,7 @@
 <rect x="0.5" y="0.5" width="399" height="194" rx="6" fill="none" stroke="none"/>
 <text x="20" y="28" class="col">MOST USED LANGUAGES</text>
 <mask id="bar"><rect class="grow" x="20" y="48" width="360" height="10" rx="5" fill="#fff"/></mask>
-<g mask="url(#bar)"><rect x="20.00" y="48" width="224.56" height="10" fill="#A97BFF"/><rect x="246.56" y="48" width="38.36" height="10" fill="#3572A5"/><rect x="286.92" y="48" width="34.68" height="10" fill="#3178c6"/><rect x="323.59" y="48" width="18.31" height="10" fill="#f1e05a"/><rect x="343.91" y="48" width="8.05" height="10" fill="#00ADD8"/><rect x="353.96" y="48" width="26.04" height="10" fill="#6e7681"/></g>
+<g mask="url(#bar)"><rect x="20.00" y="48" width="224.53" height="10" fill="#A97BFF"/><rect x="246.53" y="48" width="38.41" height="10" fill="#3572A5"/><rect x="286.94" y="48" width="34.67" height="10" fill="#3178c6"/><rect x="323.61" y="48" width="18.30" height="10" fill="#f1e05a"/><rect x="343.92" y="48" width="8.05" height="10" fill="#00ADD8"/><rect x="353.96" y="48" width="26.04" height="10" fill="#6e7681"/></g>
 <g transform="translate(20 84)"><g class="fade" style="animation-delay: 200ms"><circle cx="5" cy="6" r="5" fill="#A97BFF"/><text x="16" y="11" class="label">Kotlin <tspan class="secondary">64.2%</tspan></text></g></g>
 <g transform="translate(200 84)"><g class="fade" style="animation-delay: 270ms"><circle cx="5" cy="6" r="5" fill="#3572A5"/><text x="16" y="11" class="label">Python <tspan class="secondary">11.0%</tspan></text></g></g>
 <g transform="translate(20 116)"><g class="fade" style="animation-delay: 340ms"><circle cx="5" cy="6" r="5" fill="#3178c6"/><text x="16" y="11" class="label">TypeScript <tspan class="secondary">9.9%</tspan></text></g></g>
